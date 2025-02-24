@@ -9,6 +9,29 @@ main {
     margin: auto;
     background-color: rgb(182, 182, 167);
 }
+nav {
+    border-bottom: 1px solid black;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+nav li {
+    padding: 20px;
+    background-color: #8d8670;
+    border: 1px solid black;
+}
+nav li:hover {
+    background-color: #6b6655;
+}
+nav a:hover {
+    color: black;
+}
 header {
     text-align: center;
     background-color: #A59D84;
@@ -24,6 +47,7 @@ header {
     border-radius: 10px;
     width: max-content;
     padding: 10px;
+    margin: 10px;
 }
 .recept p, h3 {
     padding: 5px;
@@ -33,4 +57,9 @@ header {
     background-color: rgb(226, 213, 154);
     border: 0;
     border-radius: 10px;
+}
+article h2 {
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
