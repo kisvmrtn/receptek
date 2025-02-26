@@ -55,9 +55,11 @@ footer {
 .recept {
     border: 1px solid black;
     border-radius: 10px;
-    width: max-content;
+    width: 270px;
     padding: 10px;
     margin: 10px;
+    white-space: normal;
+    word-break: break-all;
 }
 .recept p, h3 {
     padding: 5px;
